@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import matplotlib.pyplot as pl
+from fontTools.varLib.plot import stops
 
 G = 6.6738*10**(-11) #m^-3 kg^-1 s^-2
 M = 1.9891*10**(30) #kg
@@ -113,7 +114,6 @@ for i in range(21):
         valork = j
         if binomio(valorn,valork) == int(binomio(valorn,valork)):
             pascalbin.append(binomio(valorn, valork))
-            print(pascalbin)
 #Parte 2 feita
 valorn = 100
 valork = 60
@@ -121,9 +121,34 @@ valork = 60
 probabilidade = binomio(valorn,valork)/(2**(valorn))
 
 
-print("esta é a probabilidade:",probabilidade)
+#print("esta é a probabilidade:",probabilidade)
 #Parte 3 feita
 
 
 
+###########################################################################################
 
+#Exercicio 5
+ListaPrimos = [2]
+
+#def primo(n):
+# for i in range(n+1):
+#        while i <= np.sqrt(n):
+ #           if n % ListaPrimos[i] == 0:
+  #              break
+   #         else:
+    #            ListaPrimos.append(n)
+
+   # return ListaPrimos
+n = 100000
+j = 1
+i = 0
+for i in range(0,n):
+    while j <= np.sqrt(n):
+        print(i)
+        if j % ListaPrimos[i] == 0:
+            print("hi")
+        else:
+            ListaPrimos.append(j)
+        i += 1
+        print(ListaPrimos)

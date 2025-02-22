@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f016d597-27a3-417d-8858-181cf1c213f8" name="Changes" comment="added the code for exercises 1,2 and 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Lista1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Lista1-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Lista1.executor": "Run",
     "Python.Lista1_FISICA_COMPUTACIONAL.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -103,11 +107,30 @@
       <option name="project" value="LOCAL" />
       <updated>1740136938693</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added the code for exercises 1,2 and 3">
+      <option name="closed" value="true" />
+      <created>1740151212880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740151212880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the code for exercises 1,2 and 3" />
     <option name="LAST_COMMIT_MESSAGE" value="added the code for exercises 1,2 and 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lista1.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
