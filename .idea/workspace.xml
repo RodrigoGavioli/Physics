@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f016d597-27a3-417d-8858-181cf1c213f8" name="Changes" comment="added the code for exercises 1,2 and 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Lista1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Lista1-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lista1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lista1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1.py" afterDir="false" />
     </list>
@@ -25,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RodrigoGavioli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RodrigoGavioli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RodrigoGavioli/Physics.git",
-    "accountId": "a5566828-fe4c-419e-bb41-9569119eb38a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RodrigoGavioli/Physics.git&quot;,
+    &quot;accountId&quot;: &quot;a5566828-fe4c-419e-bb41-9569119eb38a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tG0CCHfzn1WRVOwCBgApBXu8ME" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +50,7 @@
     "Python.Lista1.executor": "Run",
     "Python.Lista1_FISICA_COMPUTACIONAL.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740151212880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added the code for exercises 1,2 and 3">
+      <option name="closed" value="true" />
+      <created>1740241089950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740241089950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

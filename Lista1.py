@@ -147,7 +147,6 @@ for i in range(0,n):
     while j <= np.sqrt(n):
         print(i)
         if j % ListaPrimos[i] == 0:
-            print("hi")
         else:
             ListaPrimos.append(j)
         i += 1
