@@ -130,24 +130,21 @@ probabilidade = binomio(valorn,valork)/(2**(valorn))
 
 #Exercicio 5
 ListaPrimos = [2]
-
-#def primo(n):
-# for i in range(n+1):
-#        while i <= np.sqrt(n):
- #           if n % ListaPrimos[i] == 0:
-  #              break
-   #         else:
-    #            ListaPrimos.append(n)
-
-   # return ListaPrimos
 n = 100000
-j = 1
-i = 0
-for i in range(0,n):
-    while j <= np.sqrt(n):
-        print(i)
-        if j % ListaPrimos[i] == 0:
+
+for i in range(n): #i is the number we are going to check if it is prime
+    for j in range(len(ListaPrimos)):
+        if len(ListaPrimos) <= np.sqrt(i):
+            if i % ListaPrimos[j] == 0:
+                print(i,"is not prime")
+                break
+            else:
+                print(i,"is prime")
+                ListaPrimos.append(i)
+                print("lista atualizada com:",i,ListaPrimos)
+                break
         else:
-            ListaPrimos.append(j)
-        i += 1
-        print(ListaPrimos)
+            print(i,"is not prime")
+            break
+       
+print(ListaPrimos)
