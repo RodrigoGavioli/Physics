@@ -148,3 +148,22 @@ for i in range(n): #i is the number we are going to check if it is prime
             break
        
 print(ListaPrimos)
+
+##############################################################################################
+
+#Exercicio 6 
+
+def catalan(n):
+    if n == 0: 
+        CatalanR = 1
+    C = ((4*n+2)/(n+2))
+    CatalanR = catalan(i)*catalan(i-1)
+    return CatalanR
+
+print(catalan(100))
+
+Serie = [1.0]
+CatalanN = 1
+for i in range(0,1000001):
+    CatalanN = catalan(i)*CatalanN
+    Serie.append(CatalanN)
