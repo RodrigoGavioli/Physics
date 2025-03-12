@@ -76,6 +76,7 @@ def madelung_constant(L):
     return M
 
 
+
 # Definindo o tamanho da rede tridimensional
 L = 10  # Pode aumentar para maior precisão, mas também aumenta o tempo de execução
 
